@@ -53,7 +53,6 @@ const onTabClick = function(idContainer, idElement) {
   loop: true,
  });
 
- let
 
 
 
