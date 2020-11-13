@@ -557,6 +557,7 @@ margin-bottom: 10px;
    width: 40px;
    top: 10px;
    left: 10px;
+   display: none;
 }
 
 /* od 1025 do 1366 */
@@ -616,6 +617,13 @@ margin-bottom: 10px;
       left: 0;
       width: 100%;
       z-index: 4;
+      display: none;
+   }
+   .header-navigation.active {
+      display: flex;
+   }
+   .header-navigation-close {
+      display: block;
    }
    .header-navigation-element {
       flex-wrap: wrap;
@@ -632,8 +640,92 @@ margin-bottom: 10px;
    }
    .header-navigation-helm {
       width: 50px;
-      top: 10px;
+      top: 20px;
       margin: 0;
       margin-left: -25px;
    }
+   .header-navigation-menu {
+      display: block;
+}
+   .header-content {
+      height: auto;
+   }
+   .header-middle {
+      grid-template-columns: 1fr;
+      padding-top: 70px;
+}
+   .header-middle_title {
+      font-size: 34px;
+   }
+   .header-middle-content {
+      margin: 30px 0;
+   }
+   .header-content:after, .header-content:before {
+      display: none;
+   }
+   .header-middle-socials {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .section-content {
+      grid-template-columns: 1fr;
+   }
+   .section-content-media-image {
+      margin-top: 20px;
+      text-align: center;
+   }
+   .section-content-media-image_img {
+      box-shadow: none;
+   }
+   .section-title {
+      font-size: 26px;
+   }
+   .about {
+      padding: 20px 0;
+   }
+   .our-team {
+      padding: 20px 0;
+   }
+   .book {
+      padding: 20px 0;
+   }
+   .book-order {
+    grid-template-columns: 1fr;
+   }
+   .book-order_button {
+      grid-column: 1;
+   }
+   .products {
+      padding: 20px 0;
+   }
+   .menu {
+      padding: 20px 0;
+   }
+   .menu-list {
+      grid-template-columns: 1fr;
+   }
+   .events {
+      padding: 20px 0;
+   }
+   .gallery {
+      flex-wrap: wrap;
+   }
+   .gallery-image {
+      width: 50%;
+   }
+   .contact {
+      padding: 20px 0;
+   }
+   .contact-form-contacts {
+      flex-wrap: wrap;
+      margin-bottom: 0;
+   }
+   .contact-form-contacts_input {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   .map-google {
+      height: 200px;
+  }
 }
